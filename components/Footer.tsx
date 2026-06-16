@@ -114,7 +114,7 @@ export default function Footer() {
             gap: 12,
           }}>
             <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 11, color: "#2A2A28" }}>
-              © {new Date().getFullYear()} Aaron Huffman
+              © {new Date().getFullYear()} Aaron Wiggan
             </p>
             <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 11, color: "#2A2A28" }}>
               Brand strategy. Narrative systems. Creative direction.

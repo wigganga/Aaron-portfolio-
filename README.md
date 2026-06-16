@@ -1,4 +1,4 @@
-# Aaron Wiggan — Personal Portfolio
+# Aaron Huffman — Personal Portfolio
 
 Premium editorial portfolio site built with Next.js, TypeScript, Tailwind CSS v4, and Framer Motion.
 

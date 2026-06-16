@@ -75,7 +75,7 @@ export default function Hero() {
               marginBottom: "clamp(36px, 5vw, 64px)",
             }}
           >
-            Huffman
+            Wiggan
           </motion.div>
         </div>
 
