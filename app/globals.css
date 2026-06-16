@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-serif: 'Playfair Display', Georgia, serif;
+  --font-family-sans: 'DM Sans', system-ui, sans-serif;
+
+  /* Palette A — Bone & Ink */
+  --color-bone: #F5F2ED;
+  --color-bone-mid: #EEE9E1;
+  --color-bone-dark: #E5DFD5;
+  --color-parchment: #FAF8F4;
+  --color-ink: #111110;
+  --color-ink-2: #514E49;
+  --color-ink-3: #8C8880;
+  --color-ink-4: #BAB6B0;
+  --color-navy: #162F58;
+  --color-navy-mid: #1E3F72;
+  --color-rule: #DDD8CF;
+  --color-rule-dark: #C8C2B8;
+}
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background: #F5F2ED;
+    color: #111110;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    line-height: 1;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: #162F58;
+    color: #F5F2ED;
+  }
+
+  img, video { display: block; max-width: 100%; }
+}
+
+/* Utility: visually hidden */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
